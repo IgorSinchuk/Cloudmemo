@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".account.RegisterScreen">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+
+        <EditText
+            android:id="@+id/passInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="password"
+            android:textColorHint="#fff"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/registerButton"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/login_button"
+            android:text="Register"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!--<Button-->
+        <!--android:id="@+id/btnResetPass"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dip"-->
+        <!--android:background="@null"-->
+        <!--android:text="Forgot password"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#fff"/>-->
+
+        <Button
+            android:id="@+id/backToLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/borderless_button"
+            android:text="Back to Login"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

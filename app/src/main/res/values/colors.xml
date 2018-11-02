@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color>
+
+    <color name="bottomActionBar">#000</color>
+    <color name="colorBackground">#393e46</color>
+    <color name="yellowButtonPress">#F7F72B</color>
+    <color name="registerButton">#24D1F8</color>
+    <color name="colorDark">#23283a</color>
+    <color name="white">#ffffff</color>
+    <color name="header">#373331</color>
+</resources>

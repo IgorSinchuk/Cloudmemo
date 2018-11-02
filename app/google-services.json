@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "919741800782",
+    "firebase_url": "https://cloudmemo-bdc40.firebaseio.com",
+    "project_id": "cloudmemo-bdc40",
+    "storage_bucket": "cloudmemo-bdc40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919741800782:android:292df521d28a5a82",
+        "android_client_info": {
+          "package_name": "com.nonexistentware.igorsinchuk.cloudmemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919741800782-1mt1deqa2mfqs5epbd6d1rddgvgevbhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nonexistentware.igorsinchuk.cloudmemo",
+            "certificate_hash": "1ba095b684346407c72ec0ff2ec5f57ee7ed50cc"
+          }
+        },
+        {
+          "client_id": "919741800782-q2qjph0tlt1vacs6i4lht680km47fg4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_BoCRs7yXhI91SQJwgTDuEIkdUPTJ74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919741800782-q2qjph0tlt1vacs6i4lht680km47fg4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

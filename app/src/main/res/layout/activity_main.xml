@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".account.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <EditText
+            android:id="@+id/passInput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/login_button"
+            android:text="Login"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/signInBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/borderless_button"
+            android:text="Not a member? Register now"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            tools:ignore="SpUsage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <!--<com.google.android.gms.common.SignInButton-->
+        <!--android:id="@+id/googleLoginBtn"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dip"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:layout_gravity="center"/>-->
+
+        <Button
+            android:id="@+id/forgotPassBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="Forgot your password?"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/infoBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="30dip"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
