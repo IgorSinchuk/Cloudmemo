@@ -29,8 +29,7 @@
         <activity
             android:name=".account.InfoActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".firebase.NewTaskActivity" />
-        <activity android:name=".firebase.ItemList"></activity>
+        <activity android:name=".firebase.TaskControl"></activity>
     </application>
 
 </manifest>

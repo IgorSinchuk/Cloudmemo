@@ -22,8 +22,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.nonexistentware.igorsinchuk.cloudmemo.R;
-import com.nonexistentware.igorsinchuk.cloudmemo.firebase.ItemList;
-import com.nonexistentware.igorsinchuk.cloudmemo.firebase.NewTaskActivity;
+import com.nonexistentware.igorsinchuk.cloudmemo.firebase.TaskControl;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -98,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
     infoBtn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            startActivity(new Intent(MainActivity.this, InfoActivity.class));
+//            startActivity(new Intent(MainActivity.this, InfoActivity.class));
         }
     });
 
@@ -110,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.hasChild(userId)) {
-                    startActivity(new Intent(MainActivity.this, ItemList.class)); //add new activity for database
+                    startActivity(new Intent(MainActivity.this, TaskControl.class)); //add new activity for database
                 } else {
                     progressDialog.dismiss();
                     Toast.makeText(MainActivity.this, "User not registered", Toast.LENGTH_SHORT).show();
