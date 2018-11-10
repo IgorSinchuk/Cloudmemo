@@ -7,7 +7,8 @@ public class TaskModel {
     private String description;
     private String taskTime;
 
-    public TaskModel(String title, String description) {
+    public TaskModel() {
+
     }
 
     public TaskModel(String id, String userName, String title, String description, String taskTime) {
